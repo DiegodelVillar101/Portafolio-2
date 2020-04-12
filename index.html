@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PORTAFOLIO RESPONSIVE</title>
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">LOGO</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>Hola Mundo, <br>
+            Soy <span>Diego del Villar</span></h2>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing 
+               elit. Nostrum temporibus totam quibusdam. Pariatur 
+               ea molestias voluptatem vitae temporibus, ipsum, 
+               adipisci, doloremque voluptate quibusdam velit minima
+               sapiente. Voluptatem tenetur neque eum.</p>
+               <a href="#"> Conoce Más</a>
+        </div>
+
+        <ul class="sci">
+            <li><a href="#"><img src="./img/facebook.png" alt=""></a></li>
+            <li><a href="#"><img src="./img/linkedin.png" alt=""></a></li>
+            <li><a href="#"><img src="./img/twitter.png" alt=""></a></li>
+        </ul>
+    </section>
+    
+    <div class="navigation" id="navigation">
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#portafolio">Portafolio</a></li>
+            <li><a href="#">Contacto</a></li>
+        </ul>
+    </div>
+
+    <section class="info">
+        
+        <section id="inicio" class="inicio">
+            <article>
+            <h1>Inicio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+               Magnam debitis impedit deserunt quae deleniti officia quod <br>
+               eos veniam ut ullam doloremque rerum ea blanditiis voluptatem <br>
+               id quis, placeat at nostrum. <br>
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+               Magnam debitis impedit deserunt quae deleniti officia quod <br>
+               eos veniam ut ullam doloremque rerum ea blanditiis voluptatem <br>
+               id quis, placeat at nostrum.
+            </p>
+            </article>
+        </section>
+
+        <section id="acerca" class="acerca">
+        <article>
+            <h1>Acerca de</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+               Magnam debitis impedit deserunt quae deleniti officia quod 
+               eos veniam ut ullam doloremque rerum ea blanditiis voluptatem 
+               id quis, placeat at nostrum. 
+               Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+               Magnam debitis impedit deserunt quae deleniti officia quod 
+               eos veniam ut ullam doloremque rerum ea blanditiis voluptatem 
+               id quis, placeat at nostrum.</p>
+            </article>
+    </section>
+    
+    <section id="servicios" class="servicios">
+        <article>
+            <h1>Servicios</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+               Magnam debitis impedit deserunt quae deleniti officia quod <br>
+               eos veniam ut ullam doloremque rerum ea blanditiis voluptatem <br>
+               id quis, placeat at nostrum.
+            </p>
+        </article>
+    </section>
+
+    <figure class="img">
+        <img class="flag" src="./img/—Pngtree—mexico flag transparent watercolor painted_5331343.png" alt="flag" width="600px">
+    </figure>
+    
+    <section id="portafolio" class="portafolio">
+        <article>
+            <h1>Portafolio</h1>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                Magnam debitis impedit deserunt quae deleniti officia quod <br>
+                eos veniam ut ullam doloremque rerum ea blanditiis voluptatem <br>
+                id quis, placeat at nostrum. <br>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br>
+                Magnam debitis impedit deserunt quae deleniti officia quod <br>
+                eos veniam ut ullam doloremque rerum ea blanditiis voluptatem <br>
+                id quis, placeat at nostrum.</p>
+            </article>
+        </section>
+        
+    </section>
+
+
+
+
+
+
+
+
+    
+    <script type="text/javascript">
+    function toggle(){
+        var sec = document.getElementById('sec');
+        var nav = document.getElementById('navigation');
+        sec.classList.toggle('active')
+        nav.classList.toggle('active')
+    }
+    </script>
+</body>
+</html>
